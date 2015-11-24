@@ -1,0 +1,4 @@
+calculator:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+    #prefix: /calculator Si se pone esto hay que escribir este prefijo para ver el contenido

@@ -1,0 +1,10 @@
+{% extends '::base.html.twig' %}
+{% block body %}
+    <h2>Ejercicios de cadenas con Symfony</h2>
+    <p><a href="{{ path('contarCaracteres') }}">Contar caracteres</a></p>
+    <p><a href="{{ path('contarvocales') }}">Contar Vocales</a> </p>
+    <p><a href="{{ path('invertirCadena') }}">Invertir cadenas</a></p>
+    <p><a href="{{ path('mayuscula') }}">Convertir en mayúsculas</a> </p>
+    <p><a href="{{ path('juntar') }}">Juntar cadenas</a></p>
+    <p><a href="{{ path('omitir') }}">Omitir letra</a> </p>
+{% endblock %}
